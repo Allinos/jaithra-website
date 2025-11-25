@@ -18,7 +18,7 @@
 }
 .header-carousel-background{
 
-  background: url('https://kof.ethz.ch/en/news-and-events/kof-bulletin/kof-bulletin/2023/04/The-Swiss-construction-sector-since-COVID-19-an-interim-assessment/_jcr_content/par/lead/imagePanorama.imageformat.carousel.602210160.jpg');
+  background: url('./../img/home-images/new_home2.jpg');
   background-size: cover;       /* Cover the whole div */
   background-position: center;  /* Center the image */
   background-repeat: no-repeat; /* Prevent tiling */
