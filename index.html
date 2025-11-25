@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jaithra</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:slnt,wght@-10..0,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="lib/animate/animate.min.css" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <!-- <div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block">
+        <div class="container">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <div class="border-end border-primary pe-3">
+                            <a href="#" class="text-muted small"><i
+                                    class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
+                        </div>
+                        <div class="ps-3">
+                            <a href="mailto:example@gmail.com" class="text-muted small"><i
+                                    class="fas fa-envelope text-primary me-2"></i>example@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex justify-content-end">
+                        <div class="d-flex border-end border-primary pe-3">
+                            <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="dropdown ms-3">
+                            <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i
+                                        class="fas fa-globe-europe text-primary me-2"></i> English</small></a>
+                            <div class="dropdown-menu rounded">
+                                <a href="#" class="dropdown-item">English</a>
+                                <a href="#" class="dropdown-item">Bangla</a>
+                                <a href="#" class="dropdown-item">French</a>
+                                <a href="#" class="dropdown-item">Spanish</a>
+                                <a href="#" class="dropdown-item">Arabic</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="#" class="navbar-brand p-0">
+                    <h1 class="text-primary mb-0">
+                        <img src="img/logo.png" alt="Logo">
+                    </h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-0 mx-lg-auto">
+                        <a href="index" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#products" class="nav-item nav-link">Products</a>
+                        <a href="#products" class="nav-item nav-link">Category</a>
+                        <!-- <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                <span class="dropdown-toggle">Pages</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="feature" class="dropdown-item">Our Features</a>
+                                <a href="team" class="dropdown-item">Our team</a>
+                                <a href="testimonial" class="dropdown-item">Testimonial</a>
+                                <a href="FAQ" class="dropdown-item">FAQs</a>
+                                <a href="404" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div> -->
+                        <a href="#contacts" class="nav-item nav-link">Contact</a>
+                        <div class="nav-btn px-3">
+                            <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0"
+                                data-bs-toggle="modal" data-bs-target="#searchModal"><i
+                                    class="fas fa-search"></i></button>
+                            <a href="https://wa.me/+916901185375?text=Hi I'm interested in dealing with you. Give me a Quote!"
+                                class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Get a
+                                Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-xl-flex flex-shrink-0 ps-4">
+                    <a href="#" class="btn btn-light btn-lg-square rounded-circle position-relative wow tada"
+                        data-wow-delay=".9s">
+                        <i class="fa fa-phone-alt fa-2x"></i>
+                        <div class="position-absolute" style="top: 7px; right: 12px;">
+                            <!-- <span><i class="fa fa-comment-dots text-secondary"></i></span> -->
+                        </div>
+                    </a>
+                    <div class="d-flex flex-column ms-3">
+                        <span>Call to Us</span>
+                        <a href="tel:+91 6901185375"><span class="text-dark">Free: +91 6901185375</span></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center bg-primary">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="keywords"
+                            aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i
+                                class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+
+    <!-- Carousel Start -->
+    <!-- Carousel Start -->
+    <div class="header-carousel owl-carousel ">
+        <!-- Slide 1 -->
+        <div class="header-carousel-item bg-primary ">
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="row g-4 align-items-center" >
+                        <div class="col-lg-7 animated fadeInLeft">
+                            <div class="text-sm-center text-md-start">
+                                <h4 class="text-white text-uppercase fw-bold mb-4 " style="color: rgb(0, 0, 0)!important">Welcome To Our Store</h4>
+                                <h1 class="display-1 text-white mb-4">High-Quality Construction & Waterproofing Products
+                                </h1>
+                                <p class="mb-5 fs-5" style="color: rgb(0, 0, 0)!important">We provide premium-grade construction chemicals, adhesives, and
+                                    waterproofing systems to make your projects stronger and long-lasting.</p>
+                                <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
+                                    <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#products"><i
+                                            class="fas fa-box-open me-2"></i> Our Products</a>
+                                    <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="#about">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 animated fadeInRight">
+                            <div class="calrousel-img" style="object-fit: cover;">
+                                <!-- <img src="img/home-images/imagePanorama.imageformat.carousel.602210160.jpg" class="img-fluid w-100"
+                                    alt="Construction Products"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="background-wrapper header-carousel-background"></div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="header-carousel-item bg-primary header-carousel-background">
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="row gy-4 gx-0 gx-lg-5 align-items-center">
+                        <div class="col-lg-5 animated fadeInLeft">
+                            <div class="calrousel-img">
+                                <!-- <img src="img/carousel-waterproofing.jpg" class="img-fluid w-100"
+                                    alt="Waterproofing Solutions"> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-7 animated fadeInRight">
+                            <div class="text-sm-center text-md-end">
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="color: rgb(0, 0, 0)!important">Expert Waterproofing Solutions</h4>
+                                <h1 class="display-1 text-white mb-4" style="color: rgb(105, 1, 1)!important">Protect Your Buildings From Water Damage</h1>
+                                <p class="mb-5 fs-5" style="color: rgb(3, 3, 3);">Our waterproofing chemicals and systems ensure complete protection
+                                    for basements, roofs, walls, and structures.</p>
+                                <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
+                                    <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#services"><i
+                                            class="fas fa-shield-alt me-2"></i> View Services</a>
+                                    <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="#contact">Contact
+                                        Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Feature Start -->
+    <div class="container-fluid feature bg-light py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Our Features</h4>
+                <h1 class="display-4 mb-4">Why Choose Our Products?</h1>
+                <p class="mb-0">We are dedicated to providing high-quality construction materials and waterproofing
+                    solutions that deliver strength, durability, and long-lasting results for every project.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="feature-item p-4 pt-0">
+                        <div class="feature-icon p-4 mb-4">
+                            <i class="fa fa-certificate fa-3x"></i>
+                        </div>
+                        <h4 class="mb-4">Premium Quality</h4>
+                        <p>All our products are sourced from trusted manufacturers, ensuring top performance.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="feature-item p-4 pt-0">
+                        <div class="feature-icon p-4 mb-4">
+                            <i class="fa fa-industry fa-3x"></i>
+                        </div>
+                        <h4 class="mb-4">Wide Product Range</h4>
+                        <p>From tile adhesives to waterproofing systems, we cover all construction needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="feature-item p-4 pt-0">
+                        <div class="feature-icon p-4 mb-4">
+                            <i class="fa fa-handshake fa-3x"></i>
+                        </div>
+                        <h4 class="mb-4">Trusted by Contractors</h4>
+                        <p>Our products are used by professionals across residential and commercial projects.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="feature-item p-4 pt-0">
+                        <div class="feature-icon p-4 mb-4">
+                            <i class="fa fa-truck fa-3x"></i>
+                        </div>
+                        <h4 class="mb-4">Reliable Supply</h4>
+                        <p>We ensure on-time bulk supply for contractors and construction businesses.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light about pb-5" id="about">
+        <div class="container pb-5">
+            <div class="row g-5">
+                <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="about-item-content bg-white rounded p-5 h-100">
+                        <h4 class="text-primary">About Our Store</h4>
+                        <h1 class="display-4 mb-4">Your Partner in Construction & Waterproofing</h1>
+                        <p>We provide a complete range of construction chemicals and waterproofing products that
+                            guarantee strength, durability, and safety for all types of projects.</p>
+                        <p>Our solutions are trusted by contractors, builders, and homeowners across industries.</p>
+                        <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>Premium construction materials
+                        </p>
+                        <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>Durable waterproofing systems
+                        </p>
+                        <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i>Expert consultation and
+                            bulk supply</p>
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="#contact">More Information</a>
+                    </div>
+                </div>
+                <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="bg-white rounded p-5 h-100">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-12">
+                                <!-- <div class="rounded bg-light">
+                                    <img src="img/about-construction.jpg" class="img-fluid rounded w-100"
+                                        alt="About Us">
+                                </div> -->
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="counter-item bg-light rounded p-3 h-100">
+                                    <div class="counter-counting">
+                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">200</span>
+                                        <span class="h1 fw-bold text-primary">+</span>
+                                    </div>
+                                    <h4 class="mb-0 text-dark">Projects Supplied</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="counter-item bg-light rounded p-3 h-100">
+                                    <div class="counter-counting">
+                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">150</span>
+                                        <span class="h1 fw-bold text-primary">+</span>
+                                    </div>
+                                    <h4 class="mb-0 text-dark">Happy Contractors</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="counter-item bg-light rounded p-3 h-100">
+                                    <div class="counter-counting">
+                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">25</span>
+                                        <span class="h1 fw-bold text-primary">+</span>
+                                    </div>
+                                    <h4 class="mb-0 text-dark">Product Categories</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="counter-item bg-light rounded p-3 h-100">
+                                    <div class="counter-counting">
+                                        <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">10</span>
+                                        <span class="h1 fw-bold text-primary">+</span>
+                                    </div>
+                                    <h4 class="mb-0 text-dark">Years of Experience</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- About End -->
+
+    <!-- Service Start -->
+    <div class="container-fluid service py-5" id="products">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Our Products</h4>
+                <h1 class="display-4 mb-4">We Provide Best Construction Solutions</h1>
+                <p class="mb-0">We supply premium construction chemicals, adhesives, and waterproofing systems to
+                    strengthen and protect your projects.</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Waterproofing Chemical -->
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/category/Roof-waterproofing.jpg" class="img-fluid rounded-top w-100"
+                                alt="Waterproofing Chemical">
+                        </div>
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Waterproofing Chemicals</a>
+                                <p>High-quality waterproofing chemicals to protect your structures from water damage.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Construction Chemicals -->
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/category/admix.jpg" class="img-fluid rounded-top w-100"
+                                alt="Construction Chemicals">
+                        </div>
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Construction Chemicals</a>
+                                <p>Durable and effective chemicals to improve concrete strength and performance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile Adhesive -->
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/category/tile.png" class="img-fluid rounded-top w-100" alt="Tile Adhesive">
+                        </div>
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Tile Adhesive </a> <br><br>
+                                <p>Strong tile adhesives for long-lasting and secure tile installations. </p><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Waterproofing Systems -->
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/category/system.jpg" class="img-fluid rounded-top w-100"
+                                alt="Waterproofing Systems">
+                        </div>
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Waterproofing Systems</a>
+                                <p>Comprehensive waterproofing systems for roofs, basements, and walls.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 justify-content-center mt-3">
+                <!-- Paver Block Hardener -->
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/category/pbh2.jpg" class="img-fluid rounded-top w-100"
+                                alt="Paver Block Hardener">
+                        </div>
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Paver Block Hardener</a>
+                                <p>Increase durability and strength with our chemical hardeners.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Iron Oxide -->
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/category/iron.jpg" class="img-fluid rounded-top w-100" alt="Iron Oxide">
+                        </div>
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Iron Oxide</a>
+                                <p>High-quality pigments for decorative and construction use.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Concrete Repair Products -->
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/category/repair.jpeg" class="img-fluid rounded-top w-100"
+                                alt="Concrete Repair Products">
+                        </div>
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Concrete Repair</a>
+                                <p>Repair cracks, leaks, and damages effectively with our solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Epoxy Adhesive -->
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/category/epoxy.png" class="img-fluid rounded-top w-100" alt="Epoxy Adhesive">
+                        </div>
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Epoxy Adhesive</a>
+                                <p>Industrial-grade epoxy adhesives for reliable bonding.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 justify-content-center mt-3">
+                <!-- Crack Filler -->
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/category/crack.webp" class="img-fluid rounded-top w-100" alt="Crack Filler">
+                        </div>
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Crack Filler</a>
+                                <p>Seal wall and floor cracks with long-lasting crack fillers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bonding Agents -->
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/category/bonding.jpeg" class="img-fluid rounded-top w-100"
+                                alt="Bonding Agents">
+                        </div>
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Bonding Agents</a>
+                                <p>Reliable bonding agents for new-to-old concrete applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mortar Admixture -->
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img/category/morter.jpg" class="img-fluid rounded-top w-100"
+                                alt="Mortar Admixture">
+                        </div>
+                        <div class="service-content p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="d-inline-block h4 mb-4">Mortar Admixture</a>
+                                <p>Enhance strength and workability of mortar with our admixtures.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Value partners Start -->
+    <div class="container-fluid team py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s"
+                style="max-width: 800px; visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <!-- <h4 class="text-primary">Our Partners</h4> -->
+                <h1 class="display-4 mb-4"> Our Valued Business Partners</h1>
+                <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis
+                    cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt
+                    sint dolorem autem obcaecati, ipsam mollitia hic.
+                </p> -->
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/partner/sika.png" style="height: 170px;  object-fit: contain;"
+                                class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="team-title p-2">
+                            <h4 class="mb-0">Sika India</h4>
+                            <!-- <p class="mb-0">Profession</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s"
+                    style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/partner/berger.png" style="height: 170px;  object-fit: contain;"
+                                class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="team-title p-2">
+                            <h4 class="mb-0">Berger Home Shield</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s"
+                    style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/partner/sunkoll.png" style="height: 170px;  object-fit: contain;"
+                                class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="team-title p-2">
+                            <h4 class="mb-0">Sunkoll</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s"
+                    style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/partner/LanXess.png" style="height: 170px;  object-fit: contain;"
+                                class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="team-title p-2">
+                            <h4 class="mb-0">LanXess</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Value partners Start -->
+
+    <!-- Blog Start -->
+    <div class="container-fluid blog py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h1 class="display-4 mb-4">Our Top Selling Products</h1>
+                <p class="mb-0">Discover some of our most in-demand construction chemicals and waterproofing solutions
+                    trusted by contractors and homeowners alike.</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Blog Item 1 -->
+                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <!-- <img src="img/tile-adhesive.jpg" class="img-fluid rounded-top w-100" alt="Tile Adhesive"> -->
+                            <div class="blog-categiry py-2 px-4"><span>Tile Adhesive</span></div>
+                        </div>
+                        <div class="blog-content p-4">
+                            <a href="#" class="h4 d-inline-block mb-3">Premium Tile Adhesive</a>
+                            <p class="mb-3">High-strength tile adhesive ensures secure and long-lasting installations.
+                            </p>
+                            <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Item 2 -->
+                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <!-- <img src="img/concrete-repair.jpg" class="img-fluid rounded-top w-100"
+                                alt="Concrete Repair"> -->
+                            <div class="blog-categiry py-2 px-4"><span>Concrete Repair</span></div>
+                        </div>
+                        <div class="blog-content p-4">
+                            <a href="#" class="h4 d-inline-block mb-3">Concrete Repair Products</a>
+                            <p class="mb-3">Repair cracks, leaks, and damages with reliable solutions for stronger
+                                structures.</p>
+                            <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Item 3 -->
+                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <!-- <img src="img/waterproofing-chemical.jpg" class="img-fluid rounded-top w-100"
+                                alt="Waterproofing Chemicals"> -->
+                            <div class="blog-categiry py-2 px-4"><span>Waterproofing</span></div>
+                        </div>
+                        <div class="blog-content p-4">
+                            <a href="#" class="h4 d-inline-block mb-3">Waterproofing Chemicals</a>
+                            <p class="mb-3">Protect your buildings from water seepage with our trusted waterproofing
+                                products.</p>
+                            <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+    <!-- Team Start -->
+    <div class="container-fluid team pb-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Our New Arrivals</h4>
+                <h1 class="display-4 mb-4">Latest Products in Our Store</h1>
+                <p class="mb-0">We continuously update our inventory with the latest and most effective construction
+                    chemicals and waterproofing systems.</p>
+            </div>
+            <div class="row g-4">
+                <!-- Replace team with product highlights -->
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/latest-product/Sikadur-31-Epoxy-Adhesive..jpg"
+                                class="img-fluid rounded-top w-100" alt="Epoxy Adhesive">
+                        </div>
+                        <div class="team-title p-4">
+                            <h4 class="mb-0">Epoxy Adhesive</h4>
+                            <p class="mb-0">High-strength industrial bonding solution</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/latest-product/Chemical-Hardener-for-Paver-Block..jpg"
+                                class="img-fluid rounded-top w-100" alt="Paver Block Hardener">
+                        </div>
+                        <div class="team-title p-4">
+                            <h4 class="mb-0">Paver Block Hardener</h4>
+                            <p class="mb-0">Increase durability of paver blocks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/latest-product/Sikadur-20-Crack-Seal..jpg" class="img-fluid rounded-top w-100"
+                                alt="Crack Filler">
+                        </div>
+                        <div class="team-title p-4">
+                            <h4 class="mb-0">Crack Filler</h4>
+                            <p class="mb-0">Long-lasting wall & floor crack repair</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/latest-product/SikaCeram-428-Super-Bond-T..jpg"
+                                class="img-fluid rounded-top w-100" alt="Bonding Agents">
+                        </div>
+                        <div class="team-title p-4">
+                            <h4 class="mb-0">Bonding Agents</h4>
+                            <p class="mb-0">Enhance adhesion between concrete layers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial pb-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Testimonials</h4>
+                <h1 class="display-4 mb-4">What Our Clients Say</h1>
+                <p class="mb-0">We have built trust with contractors, builders, and homeowners by consistently providing
+                    reliable construction and waterproofing products.</p>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
+                <div class="testimonial-item bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-4 col-lg-4 col-xl-3">
+                            <!-- <img src="img/client-1.jpg" class="img-fluid h-100 rounded" style="object-fit: cover;"
+                                alt="Client"> -->
+                        </div>
+                        <div class="col-8 col-lg-8 col-xl-9">
+                            <div class="d-flex flex-column my-auto text-start p-4">
+                                <h4 class="text-dark mb-0">Rahul Sharma</h4>
+                                <p class="mb-3">Contractor</p>
+                                <div class="d-flex text-primary mb-3"><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i></div>
+                                <p class="mb-0">“The waterproofing chemicals we purchased were of top quality. My
+                                    projects are now safer and long-lasting.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-4 col-lg-4 col-xl-3">
+                            <!-- <img src="img/client-2.jpg" class="img-fluid h-100 rounded" style="object-fit: cover;"
+                                alt="Client"> -->
+                        </div>
+                        <div class="col-8 col-lg-8 col-xl-9">
+                            <div class="d-flex flex-column my-auto text-start p-4">
+                                <h4 class="text-dark mb-0">Anita Verma</h4>
+                                <p class="mb-3">Architect</p>
+                                <div class="d-flex text-primary mb-3"><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star text-body"></i></div>
+                                <p class="mb-0">“Excellent tile adhesive and bonding agents. My clients are very
+                                    satisfied with the durability.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-4 col-lg-4 col-xl-3">
+                            <!-- <img src="img/client-3.jpg" class="img-fluid h-100 rounded" style="object-fit: cover;"
+                                alt="Client"> -->
+                        </div>
+                        <div class="col-8 col-lg-8 col-xl-9">
+                            <div class="d-flex flex-column my-auto text-start p-4">
+                                <h4 class="text-dark mb-0">Imran Khan</h4>
+                                <p class="mb-3">Builder</p>
+                                <div class="d-flex text-primary mb-3"><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star text-body"></i><i class="fas fa-star text-body"></i></div>
+                                <p class="mb-0">“Their concrete repair products are reliable and effective. We’ll
+                                    definitely continue sourcing from them.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- FAQs Start -->
+    <div class="container-fluid faq-section bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="h-100">
+                        <div class="mb-5">
+                            <h4 class="text-primary">Some Important FAQ's</h4>
+                            <h1 class="display-4 mb-0">Frequently Asked Questions</h1>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <!-- FAQ 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button border-0" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Q: Do you provide bulk supply for contractors?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show active"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body rounded">
+                                        A: Yes, we specialize in wholesale supply of construction chemicals, adhesives,
+                                        and waterproofing products for contractors and builders.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FAQ 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Q: Which waterproofing products do you recommend for basements?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        A: Our waterproofing systems and chemicals provide complete protection for
+                                        basements, ensuring long-term durability against water seepage.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FAQ 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Q: Do you offer technical guidance for using your products?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        A: Absolutely! We provide expert consultation to help you choose and apply the
+                                        right construction solutions for your projects.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Image -->
+                <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <img src="img/faq.png" class="img-fluid w-100" alt="FAQs">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQs End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s" id="contacts">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-xl-9">
+                    <div class="mb-5">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-6 col-xl-5">
+                                <div class="footer-item">
+                                    <a href="index" class="p-0">
+                                        <img src="img/logo.png"
+                                            style=" filter: brightness(0) invert(1); margin-bottom: 10px;" alt="Logo">
+                                        <!-- <h3 class="text-white">Jaithra</h3> -->
+                                    </a>
+                                    <!-- <p class="text-white mb-4">Dolor amet sit justo amet elitr clita ipsum elitr
+                                        est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p> -->
+                                    <div class="footer-btn d-flex">
+                                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i
+                                                class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i
+                                                class="fab fa-instagram"></i></a>
+                                        <a class="btn btn-md-square rounded-circle me-0" href="#"><i
+                                                class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-3">
+                                <div class="footer-item">
+                                    <h4 class="text-white mb-4">Useful Links</h4>
+                                    <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                                    <a href="#"><i class="fas fa-angle-right me-2"></i> Features</a>
+                                    <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
+                                    <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
+                                    <a href="#"><i class="fas fa-angle-right me-2"></i> Blogs</a>
+                                    <a href="#"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4">
+                                <div class="footer-item">
+                                    <h4 class="mb-4 text-white">Instagram</h4>
+                                    <div class="row g-3">
+                                        <div class="col-4">
+                                            <div class="footer-instagram rounded">
+                                                <img src="img/instagram-footer-1.jpg" class="img-fluid w-100" alt="">
+                                                <div class="footer-search-icon">
+                                                    <a href="img/instagram-footer-1.jpg"
+                                                        data-lightbox="footerInstagram-1" class="my-auto"><i
+                                                            class="fas fa-link text-white"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="footer-instagram rounded">
+                                                <img src="img/instagram-footer-2.jpg" class="img-fluid w-100" alt="">
+                                                <div class="footer-search-icon">
+                                                    <a href="img/instagram-footer-2.jpg"
+                                                        data-lightbox="footerInstagram-2" class="my-auto"><i
+                                                            class="fas fa-link text-white"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="footer-instagram rounded">
+                                                <img src="img/instagram-footer-3.jpg" class="img-fluid w-100" alt="">
+                                                <div class="footer-search-icon">
+                                                    <a href="img/instagram-footer-3.jpg"
+                                                        data-lightbox="footerInstagram-3" class="my-auto"><i
+                                                            class="fas fa-link text-white"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="footer-instagram rounded">
+                                                <img src="img/instagram-footer-4.jpg" class="img-fluid w-100" alt="">
+                                                <div class="footer-search-icon">
+                                                    <a href="img/instagram-footer-4.jpg"
+                                                        data-lightbox="footerInstagram-4" class="my-auto"><i
+                                                            class="fas fa-link text-white"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="footer-instagram rounded">
+                                                <img src="img/instagram-footer-5.jpg" class="img-fluid w-100" alt="">
+                                                <div class="footer-search-icon">
+                                                    <a href="img/instagram-footer-5.jpg"
+                                                        data-lightbox="footerInstagram-5" class="my-auto"><i
+                                                            class="fas fa-link text-white"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="footer-instagram rounded">
+                                                <img src="img/instagram-footer-6.jpg" class="img-fluid w-100" alt="">
+                                                <div class="footer-search-icon">
+                                                    <a href="img/instagram-footer-6.jpg"
+                                                        data-lightbox="footerInstagram-6" class="my-auto"><i
+                                                            class="fas fa-link text-white"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-5" style="border-top: 1px solid rgba(255, 255, 255, 0.08);">
+                        <div class="row g-0">
+                            <div class="col-12">
+                                <div class="row g-4">
+                                    <div class="col-lg-6 col-xl-4">
+                                        <div class="d-flex">
+                                            <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
+                                                <i class="fas fa-map-marker-alt fa-2x"></i>
+                                            </div>
+                                            <div>
+                                                <h4 class="text-white">Address</h4>
+                                                <p class="mb-0">Namghar path, Haibargaon, Nagaon(Assam) Pin:782002</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-xl-4">
+                                        <div class="d-flex">
+                                            <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
+                                                <i class="fas fa-envelope fa-2x"></i>
+                                            </div>
+                                            <div>
+                                                <h4 class="text-white">Mail Us</h4>
+                                                <p class="mb-0">utpalnath2011@gmail.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-xl-4">
+                                        <div class="d-flex">
+                                            <!-- <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
+                                                <i class="fa fa-phone-alt fa-2x"></i>
+                                            </div> -->
+                                            <div>
+                                                <h4 class="text-white">Telephone</h4>
+                                                <p class="mb-0">(+91) 6901185375</p>
+                                                <p class="mb-0">(+91) 6901185375</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3">
+                    <div class="footer-item">
+                        <!-- <h4 class="text-white mb-4">Newsletter</h4> -->
+                        <!-- <p class="text-white mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit.</p> -->
+                        <div class="position-relative rounded-pill mb-4">
+                            <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Enter your email">
+                            <!-- <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button> -->
+                        </div>
+                        <div class="d-flex flex-shrink-0">
+                            <div class="footer-btn">
+                                <a href="#" class="btn btn-lg-square rounded-circle position-relative wow tada"
+                                    data-wow-delay=".9s">
+                                    <i class="fa fa-phone-alt fa-2x"></i>
+                                    <div class="position-absolute" style="top: 2px; right: 12px;">
+                                        <!-- <span><i class="fa fa-comment-dots text-secondary"></i></span> -->
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-flex flex-column ms-3 flex-shrink-0">
+                                <span>Call to Our Experts</span>
+                                <a href="tel:+91 6901185375"><span class="text-white">Free: +91 6901185375</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <!-- <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-end mb-md-0">
+                    <span class="text-body"><a href="#" class="border-bottom text-white"><i
+                                class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right
+                        reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-start text-body">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+    <!-- Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
